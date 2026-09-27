@@ -1,6 +1,6 @@
 # 📚 C Programming for Beginners | آموزش زبان C برای مبتدیان
 
-[🇮🇷 فارسی](#فارسی) | [🇬🇧 English](#english)
+[🇮🇷 فارسی](#-فارسی) | [🇬🇧 English](#-english)
 
 ---
 
@@ -43,156 +43,227 @@ c-programming-for-beginner/
     ├── day-08-save-in-shopping-list/
     ├── day-09-contacts/
     └── day-10-library/
+```
 
+## 🚀 شروع سریع
 
-    🚀 شروع سریع
-پیش‌نیازها
-GCC Compiler
-یک ویرایشگر کد مانند VS Code یا Code::Blocks
+### پیش‌نیازها
 
-نصب و اجرا
+- GCC Compiler
+- یک ویرایشگر کد مانند VS Code یا Code::Blocks
+
+### نصب و اجرا
+
 1. کلون کردن مخزن:
+
 ```bash
 git clone https://github.com/yazarouz/c-programming-for-beginner.git
 cd c-programming-for-beginner
+```
 
 2. کامپایل و اجرا:
+
 ```bash
 gcc concepts/01-hello-world.c -o hello
 ./hello
+```
 
-🎓 مباحث پوشش داده‌شده
-پایه
-✅ متغیرها و انواع داده
-✅ ورودی و خروجی
-✅ شرط‌ها و حلقه‌ها
+## 🎓 مباحث پوشش داده‌شده
 
-متوسط
-✅ توابع و بازگشت (Recursion)
-✅ آرایه‌ها، رشته‌ها و اشاره‌گرها
-✅ کار با فایل ها و Struct
+### پایه
 
-پیشرفته
-✅ حافظه پویا (Dynamic Memory)
-✅ عملیات CRUD
-✅ مدیریت خطا
+- ✅ متغیرها و انواع داده
+- ✅ ورودی و خروجی
+- ✅ شرط‌ها و حلقه‌ها
 
-🤝 مشارکت
-1. فرک کردن مخزن
+### متوسط
+
+- ✅ توابع و بازگشت (Recursion)
+- ✅ آرایه‌ها، رشته‌ها و اشاره‌گرها
+- ✅ Struct و کار با فایل‌ها
+
+### پیشرفته
+
+- ✅ حافظه پویا (Dynamic Memory)
+- ✅ عملیات CRUD
+- ✅ مدیریت خطا
+
+## 🤝 مشارکت
+
+1. Fork کردن مخزن
 2. ساخت یک Branch:
+
+```bash
 git checkout -b feature/NewFeature
+```
+
 3. ثبت تغییرات:
+
+```bash
 git commit -m "Add NewFeature"
-4. پوش کردن تغییرات:
+```
+
+4. Push کردن تغییرات:
+
+```bash
 git push origin feature/NewFeature
+```
+
 5. ایجاد Pull Request
 
-📝 مجوز
+## 📝 مجوز
+
 این پروژه تحت مجوز MIT منتشر شده است.
-جزئیات بیشتر در فایل LICENSE موجود است.
 
-👨‍💻 نویسنده
-yazarouz
-GitHub: @yazarouz
+جزئیات بیشتر در فایل `LICENSE` موجود است.
 
-🙏 قدردانی
+## 👨‍💻 نویسنده
+
+**yazarouz**
+
+GitHub: [@yazarouz](https://github.com/yazarouz)
+
+## 🙏 قدردانی
+
 با تشکر از جامعه برنامه‌نویسی C و تمام منابع آموزشی مورد استفاده در مسیر یادگیری.
+
 ساخته‌شده با ❤️ برای یادگیری بهتر برنامه‌نویسی C.
 
-⭐ حمایت
+## ⭐ حمایت
+
 اگر این پروژه برای شما مفید بود، خوشحال می‌شوم با ⭐ دادن به Repository از آن حمایت کنید.
 
-موفق باشید و Happy Coding! 🎉
+**موفق باشید و Happy Coding! 🎉**
 
+---
 
-# 📚 C Programming for Beginners
+# 🇬🇧 English
 
-> 🎯 Master C programming through hands-on projects and practical examples
+## 🎯 About the Project
 
-A comprehensive collection of small projects and tutorials designed to help beginners master C programming fundamentals. This repository contains a structured 10-day learning path with progressive projects, from basic "Hello World" to advanced file handling and data management systems.
+A comprehensive collection of tutorials, concepts, and practical projects designed to help beginners learn C programming from scratch.
+
+This repository contains a structured 10-day learning path, starting with fundamental concepts such as `Hello World` and progressing to practical projects involving file handling, data management, and CRUD operations.
 
 ## ✨ Features
 
-- 📖 **Structured Learning Path**: 10 days of progressive projects
-- 💻 **Hands-on Projects**: Real-world applications with source code
-- 📝 **Well-Documented**: Clear comments and explanations
-- 🎓 **Beginner-Friendly**: Start from scratch and build up
-- 🔧 **Practical Skills**: File handling, CRUD operations, data structures
-- 📦 **Complete Examples**: Ready-to-compile and run
+- 📖 **Structured Learning Path:** 10 days of progressive learning and projects
+- 💻 **Hands-on Projects:** Practical applications with source code
+- 📝 **Well-Documented:** Clear comments and explanations
+- 🎓 **Beginner-Friendly:** Start from the basics and build up step by step
+- 🔧 **Practical Skills:** File handling, CRUD operations, and data structures
+- 📦 **Complete Examples:** Ready-to-compile and run examples
 
 ## 📁 Repository Structure
-c-programming-for-beginner/
-├── concepts/
-│ ├── 01-hello-world.c
-│ ├── 02-data-types.c
-│ ├── 03-loop.c
-│ └── 04-Conditions-and-If-Statements.c
-└── projects/
-├── day-01-calculator/
-├── day-02-students-management-system/
-├── day-03-guess-number/
-├── day-04-text-analyzer/
-├── day-05-bubble-sort/
-├── day-06-students-record-manager/
-├── day-07-simple-login-system/
-├── day-08-save-in-shopping-list/
-├── day-09-contacts/
-└── day-10-library/
 
+```text
+c-programming-for-beginner/
+│
+├── concepts/
+│   ├── 01-hello-world.c
+│   ├── 02-data-types.c
+│   ├── 03-loop.c
+│   └── 04-Conditions-and-If-Statements.c
+│
+└── projects/
+    ├── day-01-calculator/
+    ├── day-02-students-management-system/
+    ├── day-03-guess-number/
+    ├── day-04-text-analyzer/
+    ├── day-05-bubble-sort/
+    ├── day-06-students-record-manager/
+    ├── day-07-simple-login-system/
+    ├── day-08-save-in-shopping-list/
+    ├── day-09-contacts/
+    └── day-10-library/
+```
 
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - GCC Compiler
-- Code editor (VS Code, Code::Blocks, etc.)
+- Code editor such as VS Code or Code::Blocks
 
 ### Installation
+
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yazarouz/c-programming-for-beginner.git
 cd c-programming-for-beginner
+```
 
 2. Compile and run:
+
+```bash
 gcc concepts/01-hello-world.c -o hello
 ./hello
+```
 
-🎓 Concepts Covered
+## 🎓 Concepts Covered
 
-Basic
-✅ Variables, Data Types
-✅ Input/Output
-✅ Conditions & Loops
+### Basic
 
-Intermediate
-✅ Functions, Recursion
-✅ Arrays, Strings, Pointers
-✅ Structs, File Handling
+- ✅ Variables and Data Types
+- ✅ Input/Output
+- ✅ Conditions & Loops
 
-Advanced
-✅ Dynamic Memory
-✅ CRUD Operations
-✅ Error Handling
+### Intermediate
 
-🤝 Contributing
-1 . Fork the repo
-2 . Create branch: git checkout -b feature/NewFeature
-3 . Commit: git commit -m 'Add NewFeature'
-4 . Push: git push origin feature/NewFeature
-5 . Open Pull Request
+- ✅ Functions & Recursion
+- ✅ Arrays, Strings & Pointers
+- ✅ Structs & File Handling
 
-📝 License
-MIT License - see LICENSE file.
+### Advanced
 
-👨‍💻 Author
-yazarouz
-GitHub: @yazarouz
+- ✅ Dynamic Memory
+- ✅ CRUD Operations
+- ✅ Error Handling
 
-🙏 Acknowledgments
-Thanks to the C programming community
-Built with ❤️ for beginners
+## 🤝 Contributing
 
-⭐ Support
-If this helped you, please ⭐ star this repository!
-Happy Coding! 🎉
+1. Fork the repository
+2. Create a branch:
+
+```bash
+git checkout -b feature/NewFeature
+```
+
+3. Commit your changes:
+
+```bash
+git commit -m "Add NewFeature"
+```
+
+4. Push your changes:
+
+```bash
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+## 📝 License
+
+MIT License — see the `LICENSE` file for details.
+
+## 👨‍💻 Author
+
+**yazarouz**
+
+GitHub: [@yazarouz](https://github.com/yazarouz)
+
+## 🙏 Acknowledgments
+
+Thanks to the C programming community and the educational resources used throughout the learning process.
+
+Built with ❤️ for learning C programming.
+
+## ⭐ Support
+
+If this project helped you, please consider giving the repository a ⭐ star.
+
+**Happy Coding! 🎉**
 
 <p align="center">Made with ❤️ by yazarouz</p>
